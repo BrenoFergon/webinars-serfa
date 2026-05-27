@@ -6,173 +6,1391 @@
       "EVERGREEN FORTRAFFIC ING ESPAÑA",
       "EVERGREEN FORTRAFFIC ARQ ESPAÑA"
     ],
-    "periodo": "01/05/2026 a 27/05/2026",
-    "atualizado_em": "27/05/2026 14:30"
+    "periodo": "01/12/2025 a 26/05/2026",
+    "atualizado_em": "27/05/2026 03:10"
   },
   "funil_global": {
-    "investimento_total": 3842.50,
-    "impressoes": 412800,
-    "cliques": 9640,
-    "page_views": 7710,
-    "ctr": 2.34,
-    "connect_rate": 79.98
+    "investimento_total": 17164.18,
+    "impressoes": 3953764,
+    "cliques": 59781,
+    "page_views": 37688,
+    "ctr": 1.51,
+    "connect_rate": 63.04
   },
   "webinarios": [
     {
       "webinario": "EVERGREEN FORTRAFFIC ING LATAM",
       "kpis": {
-        "investimento_total": 1620.00,
-        "cpl_total": 5.48,
-        "leads_total": 295
+        "investimento_total": 7098.39,
+        "cpl_total": 3.34,
+        "leads_total": 2174
       },
       "audiencias": {
-        "hot": { "leads": 88, "spend": 540.00, "cpl": 6.14 },
-        "cold": { "leads": 187, "spend": 1080.00, "cpl": 5.78 }
+        "hot": {
+          "leads": 854,
+          "spend": 3978.06,
+          "cpl": 4.66
+        },
+        "cold": {
+          "leads": 1277,
+          "spend": 3120.33,
+          "cpl": 2.44
+        }
       },
       "presenca": {
-        "comparecimento_live": 142, "pct_live": 48.1,
-        "comparecimento_replay": 67, "pct_replay": 22.7,
-        "viu_oferta": 48, "pct_oferta": 16.3
+        "comparecimento_live": 411,
+        "pct_live": 18.9,
+        "comparecimento_replay": 93,
+        "pct_replay": 4.3,
+        "viu_oferta": 214,
+        "pct_oferta": 9.8
       },
       "canais": [
-        { "canal": "Facebook", "leads": 162, "pct": 54.9 },
-        { "canal": "Instagram", "leads": 98, "pct": 33.2 },
-        { "canal": "Audience Network", "leads": 15, "pct": 5.1 },
-        { "canal": "Sin Trackeo", "leads": 20, "pct": 6.8 }
+        {
+          "canal": "Facebook",
+          "leads": 1605,
+          "pct": 73.8
+        },
+        {
+          "canal": "Instagram",
+          "leads": 369,
+          "pct": 17.0
+        },
+        {
+          "canal": "Audience Network",
+          "leads": 154,
+          "pct": 7.1
+        },
+        {
+          "canal": "Threads",
+          "leads": 4,
+          "pct": 0.2
+        },
+        {
+          "canal": "Sin Trackeo",
+          "leads": 42,
+          "pct": 1.9
+        }
       ],
       "leads_por_dia": [
-        { "data": "01/05", "leads": 8 }, { "data": "02/05", "leads": 11 },
-        { "data": "03/05", "leads": 9 }, { "data": "04/05", "leads": 13 },
-        { "data": "05/05", "leads": 10 }, { "data": "06/05", "leads": 12 },
-        { "data": "07/05", "leads": 14 }, { "data": "08/05", "leads": 11 },
-        { "data": "09/05", "leads": 9 }, { "data": "10/05", "leads": 15 },
-        { "data": "11/05", "leads": 12 }, { "data": "12/05", "leads": 10 },
-        { "data": "13/05", "leads": 13 }, { "data": "14/05", "leads": 11 },
-        { "data": "15/05", "leads": 16 }, { "data": "16/05", "leads": 14 },
-        { "data": "17/05", "leads": 10 }, { "data": "18/05", "leads": 12 },
-        { "data": "19/05", "leads": 9 }, { "data": "20/05", "leads": 13 }
+        {
+          "data": "Fri, ",
+          "leads": 304
+        },
+        {
+          "data": "Mon, ",
+          "leads": 286
+        },
+        {
+          "data": "Sat, ",
+          "leads": 330
+        },
+        {
+          "data": "Sun, ",
+          "leads": 369
+        },
+        {
+          "data": "Thu, ",
+          "leads": 290
+        },
+        {
+          "data": "Tue, ",
+          "leads": 305
+        },
+        {
+          "data": "Wed, ",
+          "leads": 290
+        }
       ],
       "lead_scoring": {
-        "totais": { "Ideal": 48, "Bom": 119, "Descarte": 128 },
-        "grupos": [
-          { "tipo": "COLD", "conjunto": "00-INT-DIRETOS-ING", "criativo": "01.VD-ING-CALCULADORA", "canal": "fb", "ideal": 18, "bom": 45, "descarte": 52, "total": 115 },
-          { "tipo": "HOT", "conjunto": "00-ENG-90D-ING", "criativo": "02.VD-ING-RESULTADOS", "canal": "ig", "ideal": 16, "bom": 38, "descarte": 34, "total": 88 },
-          { "tipo": "COLD", "conjunto": "00-INT-DIRETOS-ING", "criativo": "03.VD-ING-DEPOIMENTO", "canal": "fb", "ideal": 14, "bom": 36, "descarte": 42, "total": 92 }
+        "totais": {
+          "Ideal": 214,
+          "Bom": 258,
+          "Descarte": 1702
+        },
+        "top_grupos": [
+          {
+            "tipo": "COLD",
+            "conjunto": "00-INT-DIRETOS-ING",
+            "criativo": "01.VD-ING-CALCULADORA",
+            "canal": "fb",
+            "ideal": 33,
+            "bom": 51,
+            "descarte": 330,
+            "total": 414
+          },
+          {
+            "tipo": "COLD",
+            "conjunto": "00-INT-DIRETOS-ING",
+            "criativo": "03.VD EINSTEIN NUGGET-V3",
+            "canal": "fb",
+            "ideal": 26,
+            "bom": 32,
+            "descarte": 196,
+            "total": 254
+          },
+          {
+            "tipo": "HOT",
+            "conjunto": "00-ENG-90D-ING",
+            "criativo": "03.VD EINSTEIN NUGGET-V3",
+            "canal": "fb",
+            "ideal": 14,
+            "bom": 15,
+            "descarte": 123,
+            "total": 152
+          },
+          {
+            "tipo": "COLD",
+            "conjunto": "00-INT-DIRETOS-ING",
+            "criativo": "03.VD EINSTEIN NUGGET-V3",
+            "canal": "ig",
+            "ideal": 14,
+            "bom": 7,
+            "descarte": 70,
+            "total": 91
+          },
+          {
+            "tipo": "HOT",
+            "conjunto": "00-ENG-90D-ING",
+            "criativo": "01.VD-ING-CALCULADORA",
+            "canal": "fb",
+            "ideal": 10,
+            "bom": 13,
+            "descarte": 97,
+            "total": 120
+          },
+          {
+            "tipo": "HOT",
+            "conjunto": "00-ENG-90D-ING",
+            "criativo": "ING-SOFTWARE-PANTALLAS",
+            "canal": "fb",
+            "ideal": 9,
+            "bom": 7,
+            "descarte": 65,
+            "total": 81
+          },
+          {
+            "tipo": "COLD",
+            "conjunto": "00-INT-DIRETOS-ING",
+            "criativo": "ING-SOFTWARE-PANTALLAS",
+            "canal": "fb",
+            "ideal": 9,
+            "bom": 23,
+            "descarte": 85,
+            "total": 117
+          },
+          {
+            "tipo": "OUTRO",
+            "conjunto": "",
+            "criativo": "",
+            "canal": "",
+            "ideal": 9,
+            "bom": 6,
+            "descarte": 25,
+            "total": 40
+          },
+          {
+            "tipo": "COLD",
+            "conjunto": "00-INT-DIRETOS-ING",
+            "criativo": "01.VD-ING-CALCULADORA",
+            "canal": "ig",
+            "ideal": 7,
+            "bom": 14,
+            "descarte": 82,
+            "total": 103
+          },
+          {
+            "tipo": "HOT",
+            "conjunto": "00-ENG-90D-ING",
+            "criativo": "03.VD EINSTEIN NUGGET-V3",
+            "canal": "ig",
+            "ideal": 6,
+            "bom": 4,
+            "descarte": 34,
+            "total": 44
+          }
         ]
       }
     },
     {
       "webinario": "EVERGREEN FORTRAFFIC ING ESPAÑA",
       "kpis": {
-        "investimento_total": 1380.00,
-        "cpl_total": 6.90,
-        "leads_total": 200
+        "investimento_total": 6658.68,
+        "cpl_total": 17.66,
+        "leads_total": 388
       },
       "audiencias": {
-        "hot": { "leads": 62, "spend": 460.00, "cpl": 7.42 },
-        "cold": { "leads": 118, "spend": 920.00, "cpl": 7.80 }
+        "hot": {
+          "leads": 154,
+          "spend": 2481.12,
+          "cpl": 16.11
+        },
+        "cold": {
+          "leads": 223,
+          "spend": 3453.12,
+          "cpl": 15.48
+        }
       },
       "presenca": {
-        "comparecimento_live": 88, "pct_live": 44.0,
-        "comparecimento_replay": 42, "pct_replay": 21.0,
-        "viu_oferta": 31, "pct_oferta": 15.5
+        "comparecimento_live": 118,
+        "pct_live": 30.4,
+        "comparecimento_replay": 26,
+        "pct_replay": 6.7,
+        "viu_oferta": 79,
+        "pct_oferta": 20.4
       },
       "canais": [
-        { "canal": "Facebook", "leads": 110, "pct": 55.0 },
-        { "canal": "Instagram", "leads": 72, "pct": 36.0 },
-        { "canal": "Audience Network", "leads": 8, "pct": 4.0 },
-        { "canal": "Sin Trackeo", "leads": 10, "pct": 5.0 }
+        {
+          "canal": "Facebook",
+          "leads": 182,
+          "pct": 46.9
+        },
+        {
+          "canal": "Instagram",
+          "leads": 188,
+          "pct": 48.5
+        },
+        {
+          "canal": "Audience Network",
+          "leads": 7,
+          "pct": 1.8
+        },
+        {
+          "canal": "Sin Trackeo",
+          "leads": 11,
+          "pct": 2.8
+        }
       ],
       "leads_por_dia": [
-        { "data": "01/05", "leads": 6 }, { "data": "02/05", "leads": 8 },
-        { "data": "03/05", "leads": 7 }, { "data": "04/05", "leads": 10 },
-        { "data": "05/05", "leads": 9 }, { "data": "06/05", "leads": 11 },
-        { "data": "07/05", "leads": 8 }, { "data": "08/05", "leads": 12 },
-        { "data": "09/05", "leads": 7 }, { "data": "10/05", "leads": 9 },
-        { "data": "11/05", "leads": 11 }, { "data": "12/05", "leads": 8 },
-        { "data": "13/05", "leads": 10 }, { "data": "14/05", "leads": 9 },
-        { "data": "15/05", "leads": 13 }, { "data": "16/05", "leads": 10 },
-        { "data": "17/05", "leads": 8 }, { "data": "18/05", "leads": 9 },
-        { "data": "19/05", "leads": 7 }, { "data": "20/05", "leads": 8 }
+        {
+          "data": "Fri, ",
+          "leads": 43
+        },
+        {
+          "data": "Mon, ",
+          "leads": 58
+        },
+        {
+          "data": "Sat, ",
+          "leads": 59
+        },
+        {
+          "data": "Sun, ",
+          "leads": 64
+        },
+        {
+          "data": "Thu, ",
+          "leads": 49
+        },
+        {
+          "data": "Tue, ",
+          "leads": 66
+        },
+        {
+          "data": "Wed, ",
+          "leads": 49
+        }
       ],
       "lead_scoring": {
-        "totais": { "Ideal": 31, "Bom": 82, "Descarte": 87 },
-        "grupos": [
-          { "tipo": "COLD", "conjunto": "00-INT-DIRETOS-ING", "criativo": "01.VD-ING-CALCULADORA", "canal": "fb", "ideal": 14, "bom": 38, "descarte": 40, "total": 92 },
-          { "tipo": "HOT", "conjunto": "00-ENG-90D-ING", "criativo": "02.VD-ING-RESULTADOS", "canal": "ig", "ideal": 12, "bom": 28, "descarte": 22, "total": 62 },
-          { "tipo": "COLD", "conjunto": "00-INT-DIRETOS-ING", "criativo": "03.VD-ING-DEPOIMENTO", "canal": "fb", "ideal": 5, "bom": 16, "descarte": 25, "total": 46 }
+        "totais": {
+          "Ideal": 79,
+          "Bom": 55,
+          "Descarte": 254
+        },
+        "top_grupos": [
+          {
+            "tipo": "COLD",
+            "conjunto": "00-INT-DIRETOS-ING",
+            "criativo": "01.VD-ING-CALCULADORA",
+            "canal": "fb",
+            "ideal": 13,
+            "bom": 9,
+            "descarte": 29,
+            "total": 51
+          },
+          {
+            "tipo": "HOT",
+            "conjunto": "00-ENG-90D-ING",
+            "criativo": "01.VD-ING-CALCULADORA",
+            "canal": "ig",
+            "ideal": 8,
+            "bom": 5,
+            "descarte": 13,
+            "total": 26
+          },
+          {
+            "tipo": "COLD",
+            "conjunto": "00-INT-DIRETOS-ING",
+            "criativo": "01.VD-ING-CALCULADORA",
+            "canal": "ig",
+            "ideal": 7,
+            "bom": 11,
+            "descarte": 42,
+            "total": 60
+          },
+          {
+            "tipo": "COLD",
+            "conjunto": "00-INT-DIRETOS-ING",
+            "criativo": "03.VD EINSTEIN NUGGET-V3",
+            "canal": "ig",
+            "ideal": 5,
+            "bom": 3,
+            "descarte": 16,
+            "total": 24
+          },
+          {
+            "tipo": "COLD",
+            "conjunto": "00-INT-DIRETOS-ING",
+            "criativo": "ING-SOFTWARE-PANTALLAS",
+            "canal": "ig",
+            "ideal": 4,
+            "bom": 3,
+            "descarte": 14,
+            "total": 21
+          },
+          {
+            "tipo": "HOT",
+            "conjunto": "00-ENG-90D-ING",
+            "criativo": "01.VD-ING-CALCULADORA",
+            "canal": "fb",
+            "ideal": 4,
+            "bom": 3,
+            "descarte": 9,
+            "total": 16
+          },
+          {
+            "tipo": "COLD",
+            "conjunto": "00-INT-DIRETOS-ING",
+            "criativo": "03.VD EINSTEIN NUGGET-V3",
+            "canal": "fb",
+            "ideal": 4,
+            "bom": 5,
+            "descarte": 23,
+            "total": 32
+          },
+          {
+            "tipo": "HOT",
+            "conjunto": "00-ENG-90D-ING",
+            "criativo": "03.VD EINSTEIN NUGGET-V3",
+            "canal": "ig",
+            "ideal": 3,
+            "bom": 3,
+            "descarte": 12,
+            "total": 18
+          },
+          {
+            "tipo": "COLD",
+            "conjunto": "00-INT-DIRETOS-ING",
+            "criativo": "ING-SOFTWARE-PANTALLAS",
+            "canal": "fb",
+            "ideal": 3,
+            "bom": 4,
+            "descarte": 10,
+            "total": 17
+          },
+          {
+            "tipo": "HOT",
+            "conjunto": "01-MIX-365D-ING",
+            "criativo": "01.VD-ING-CALCULADORA",
+            "canal": "fb",
+            "ideal": 3,
+            "bom": 0,
+            "descarte": 3,
+            "total": 6
+          }
         ]
       }
     },
     {
       "webinario": "EVERGREEN FORTRAFFIC ARQ ESPAÑA",
       "kpis": {
-        "investimento_total": 842.50,
-        "cpl_total": 7.89,
-        "leads_total": 107
+        "investimento_total": 3407.11,
+        "cpl_total": 22.42,
+        "leads_total": 157
       },
       "audiencias": {
-        "hot": { "leads": 32, "spend": 280.00, "cpl": 8.75 },
-        "cold": { "leads": 68, "spend": 562.50, "cpl": 8.27 }
+        "hot": {
+          "leads": 70,
+          "spend": 1994.27,
+          "cpl": 28.49
+        },
+        "cold": {
+          "leads": 81,
+          "spend": 1333.75,
+          "cpl": 16.47
+        }
       },
       "presenca": {
-        "comparecimento_live": 47, "pct_live": 43.9,
-        "comparecimento_replay": 22, "pct_replay": 20.6,
-        "viu_oferta": 14, "pct_oferta": 13.1
+        "comparecimento_live": 71,
+        "pct_live": 45.2,
+        "comparecimento_replay": 14,
+        "pct_replay": 8.9,
+        "viu_oferta": 57,
+        "pct_oferta": 36.3
       },
       "canais": [
-        { "canal": "Facebook", "leads": 58, "pct": 54.2 },
-        { "canal": "Instagram", "leads": 38, "pct": 35.5 },
-        { "canal": "Audience Network", "leads": 4, "pct": 3.7 },
-        { "canal": "Sin Trackeo", "leads": 7, "pct": 6.5 }
+        {
+          "canal": "Facebook",
+          "leads": 47,
+          "pct": 29.9
+        },
+        {
+          "canal": "Instagram",
+          "leads": 103,
+          "pct": 65.6
+        },
+        {
+          "canal": "Audience Network",
+          "leads": 2,
+          "pct": 1.3
+        },
+        {
+          "canal": "Sin Trackeo",
+          "leads": 5,
+          "pct": 3.2
+        }
       ],
       "leads_por_dia": [
-        { "data": "01/05", "leads": 4 }, { "data": "02/05", "leads": 5 },
-        { "data": "03/05", "leads": 4 }, { "data": "04/05", "leads": 6 },
-        { "data": "05/05", "leads": 5 }, { "data": "06/05", "leads": 7 },
-        { "data": "07/05", "leads": 4 }, { "data": "08/05", "leads": 6 },
-        { "data": "09/05", "leads": 5 }, { "data": "10/05", "leads": 7 },
-        { "data": "11/05", "leads": 5 }, { "data": "12/05", "leads": 4 },
-        { "data": "13/05", "leads": 6 }, { "data": "14/05", "leads": 5 },
-        { "data": "15/05", "leads": 8 }, { "data": "16/05", "leads": 6 },
-        { "data": "17/05", "leads": 4 }, { "data": "18/05", "leads": 5 },
-        { "data": "19/05", "leads": 4 }, { "data": "20/05", "leads": 5 }
+        {
+          "data": "Fri, ",
+          "leads": 13
+        },
+        {
+          "data": "Mon, ",
+          "leads": 23
+        },
+        {
+          "data": "Sat, ",
+          "leads": 33
+        },
+        {
+          "data": "Sun, ",
+          "leads": 24
+        },
+        {
+          "data": "Thu, ",
+          "leads": 19
+        },
+        {
+          "data": "Tue, ",
+          "leads": 21
+        },
+        {
+          "data": "Wed, ",
+          "leads": 24
+        }
       ],
       "lead_scoring": {
-        "totais": { "Ideal": 14, "Bom": 42, "Descarte": 51 },
-        "grupos": [
-          { "tipo": "COLD", "conjunto": "00-INT-DIRETOS-ARQ", "criativo": "01.VD-ARQ-PORTFOLIO", "canal": "fb", "ideal": 8, "bom": 24, "descarte": 28, "total": 60 },
-          { "tipo": "HOT", "conjunto": "00-ENG-90D-ARQ", "criativo": "02.VD-ARQ-MERCADO", "canal": "ig", "ideal": 6, "bom": 18, "descarte": 23, "total": 47 }
+        "totais": {
+          "Ideal": 57,
+          "Bom": 20,
+          "Descarte": 80
+        },
+        "top_grupos": [
+          {
+            "tipo": "COLD",
+            "conjunto": "00-INT-DIRETOS-ARQ",
+            "criativo": "01.VD-ARQ-CALCULADORA",
+            "canal": "ig",
+            "ideal": 7,
+            "bom": 1,
+            "descarte": 3,
+            "total": 11
+          },
+          {
+            "tipo": "COLD",
+            "conjunto": "00-INT-DIRETOS-ARQ",
+            "criativo": "07-VD-FEED-ARQ-CUELLO-DE-BOTELLA CALCULA-EN-1-MANANA-V2",
+            "canal": "ig",
+            "ideal": 3,
+            "bom": 0,
+            "descarte": 2,
+            "total": 5
+          },
+          {
+            "tipo": "COLD",
+            "conjunto": "00-INT-DIRETOS-ARQ",
+            "criativo": "03.VD EINSTEIN NUGGET-V3",
+            "canal": "ig",
+            "ideal": 3,
+            "bom": 1,
+            "descarte": 2,
+            "total": 6
+          },
+          {
+            "tipo": "COLD",
+            "conjunto": "00-INT-DIRETOS-ARQ",
+            "criativo": "01.VD-ARQ-CALCULADORA",
+            "canal": "fb",
+            "ideal": 3,
+            "bom": 0,
+            "descarte": 4,
+            "total": 7
+          },
+          {
+            "tipo": "HOT",
+            "conjunto": "00-HOT-Eng90D-IMG-DIRETOS-ING",
+            "criativo": "01-ING-FEED-EINSTEIN",
+            "canal": "ig",
+            "ideal": 2,
+            "bom": 1,
+            "descarte": 0,
+            "total": 3
+          },
+          {
+            "tipo": "HOT",
+            "conjunto": "00-HOT-Eng90D-INT-DIRETOS-ING",
+            "criativo": "01-VD-FEED-SOFTWARE-VERSION",
+            "canal": "ig",
+            "ideal": 2,
+            "bom": 0,
+            "descarte": 4,
+            "total": 6
+          },
+          {
+            "tipo": "COLD",
+            "conjunto": "00-IMG-INT-DIRETOS-ARQ",
+            "criativo": "ARQUITECTOS_70",
+            "canal": "ig",
+            "ideal": 2,
+            "bom": 0,
+            "descarte": 0,
+            "total": 2
+          },
+          {
+            "tipo": "COLD",
+            "conjunto": "00-INT-DIRETOS-ARQ",
+            "criativo": "01-VD-FEED-SOFTWARE-VERSION-2",
+            "canal": "ig",
+            "ideal": 2,
+            "bom": 0,
+            "descarte": 2,
+            "total": 4
+          },
+          {
+            "tipo": "COLD",
+            "conjunto": "00-INT-DIRETOS-ARQ",
+            "criativo": "04-VD-FEED-PROYECTOS-REALES-V2",
+            "canal": "fb",
+            "ideal": 2,
+            "bom": 0,
+            "descarte": 0,
+            "total": 2
+          },
+          {
+            "tipo": "HOT",
+            "conjunto": "00-ENG-90D-ARQ",
+            "criativo": "04.VD-EINSTEINS NUGGET-V4",
+            "canal": "ig",
+            "ideal": 2,
+            "bom": 0,
+            "descarte": 4,
+            "total": 6
+          }
         ]
       }
     }
   ],
   "criativos": [
-    { "nome": "01.VD-ING-CALCULADORA", "spend": 820.00 },
-    { "nome": "02.VD-ING-RESULTADOS", "spend": 680.00 },
-    { "nome": "01.VD-ARQ-PORTFOLIO", "spend": 480.00 },
-    { "nome": "03.VD-ING-DEPOIMENTO", "spend": 440.00 },
-    { "nome": "02.VD-ARQ-MERCADO", "spend": 362.50 },
-    { "nome": "04.VD-ING-SALARIO", "spend": 340.00 },
-    { "nome": "05.VD-ING-ERRO", "spend": 280.00 },
-    { "nome": "03.VD-ARQ-DEPOIMENTO", "spend": 240.00 }
+    {
+      "nome": "01.VD-ING-CALCULADORA",
+      "spend": 4812.46
+    },
+    {
+      "nome": "03.VD EINSTEIN NUGGET-V3",
+      "spend": 3469.63
+    },
+    {
+      "nome": "ING-SOFTWARE-PANTALLAS",
+      "spend": 1569.5
+    },
+    {
+      "nome": "ING-SOFTWARE-PIZARRA",
+      "spend": 549.28
+    },
+    {
+      "nome": "02.VD-EINSTEINS NUGGET-V2",
+      "spend": 450.89
+    },
+    {
+      "nome": "04.VD-EINSTEINS NUGGET-V4",
+      "spend": 399.17
+    },
+    {
+      "nome": "01-ING-FEED-EINSTEIN",
+      "spend": 390.64
+    },
+    {
+      "nome": "ARQUITECTOS_63",
+      "spend": 355.44
+    },
+    {
+      "nome": "ING-SOFTWARE-OFF",
+      "spend": 341.85
+    },
+    {
+      "nome": "03-ING-FEED-CRISIS",
+      "spend": 312.42
+    }
   ],
   "segmentacao": {
     "genero": [
-      { "grupo": "female", "spend": 2304.00 },
-      { "grupo": "male", "spend": 1538.50 }
+      {
+        "grupo": "female",
+        "spend": 3115.32
+      },
+      {
+        "grupo": "male",
+        "spend": 13886.81
+      },
+      {
+        "grupo": "unknown",
+        "spend": 162.05
+      }
     ],
     "faixa_etaria": [
-      { "grupo": "18-24", "spend": 384.25 },
-      { "grupo": "25-34", "spend": 1152.75 },
-      { "grupo": "35-44", "spend": 1075.10 },
-      { "grupo": "45-54", "spend": 768.50 },
-      { "grupo": "55-64", "spend": 307.40 },
-      { "grupo": "65+", "spend": 154.50 }
+      {
+        "grupo": "18-24",
+        "spend": 7.44
+      },
+      {
+        "grupo": "25-34",
+        "spend": 2931.34
+      },
+      {
+        "grupo": "35-44",
+        "spend": 5518.54
+      },
+      {
+        "grupo": "45-54",
+        "spend": 4594.35
+      },
+      {
+        "grupo": "55-64",
+        "spend": 2905.42
+      },
+      {
+        "grupo": "65+",
+        "spend": 1206.67
+      },
+      {
+        "grupo": "Unknown",
+        "spend": 0.42
+      }
     ]
   },
+  "spend_por_dia": [
+    {
+      "data": "01/01",
+      "spend": 132.11
+    },
+    {
+      "data": "01/02",
+      "spend": 100.03
+    },
+    {
+      "data": "01/03",
+      "spend": 53.44
+    },
+    {
+      "data": "01/04",
+      "spend": 69.11
+    },
+    {
+      "data": "01/05",
+      "spend": 78.29
+    },
+    {
+      "data": "01/12",
+      "spend": 98.55
+    },
+    {
+      "data": "02/01",
+      "spend": 100.51
+    },
+    {
+      "data": "02/02",
+      "spend": 91.21
+    },
+    {
+      "data": "02/03",
+      "spend": 41.58
+    },
+    {
+      "data": "02/04",
+      "spend": 75.98
+    },
+    {
+      "data": "02/05",
+      "spend": 66.13
+    },
+    {
+      "data": "02/12",
+      "spend": 106.32
+    },
+    {
+      "data": "03/01",
+      "spend": 101.74
+    },
+    {
+      "data": "03/02",
+      "spend": 94.66
+    },
+    {
+      "data": "03/03",
+      "spend": 36.34
+    },
+    {
+      "data": "03/04",
+      "spend": 72.03
+    },
+    {
+      "data": "03/05",
+      "spend": 78.26
+    },
+    {
+      "data": "03/12",
+      "spend": 76.53
+    },
+    {
+      "data": "04/01",
+      "spend": 140.19
+    },
+    {
+      "data": "04/02",
+      "spend": 78.28
+    },
+    {
+      "data": "04/03",
+      "spend": 39.17
+    },
+    {
+      "data": "04/04",
+      "spend": 61.22
+    },
+    {
+      "data": "04/05",
+      "spend": 70.51
+    },
+    {
+      "data": "04/12",
+      "spend": 78.54
+    },
+    {
+      "data": "05/01",
+      "spend": 100.42
+    },
+    {
+      "data": "05/02",
+      "spend": 65.06
+    },
+    {
+      "data": "05/03",
+      "spend": 38.05
+    },
+    {
+      "data": "05/04",
+      "spend": 65.03
+    },
+    {
+      "data": "05/05",
+      "spend": 88.54
+    },
+    {
+      "data": "05/12",
+      "spend": 142.97
+    },
+    {
+      "data": "06/01",
+      "spend": 134.51
+    },
+    {
+      "data": "06/02",
+      "spend": 69.49
+    },
+    {
+      "data": "06/03",
+      "spend": 37.4
+    },
+    {
+      "data": "06/04",
+      "spend": 75.39
+    },
+    {
+      "data": "06/05",
+      "spend": 67.68
+    },
+    {
+      "data": "06/12",
+      "spend": 119.11
+    },
+    {
+      "data": "07/01",
+      "spend": 143.24
+    },
+    {
+      "data": "07/02",
+      "spend": 66.78
+    },
+    {
+      "data": "07/03",
+      "spend": 33.36
+    },
+    {
+      "data": "07/04",
+      "spend": 83.51
+    },
+    {
+      "data": "07/05",
+      "spend": 66.42
+    },
+    {
+      "data": "07/12",
+      "spend": 154.17
+    },
+    {
+      "data": "08/01",
+      "spend": 129.19
+    },
+    {
+      "data": "08/02",
+      "spend": 91.11
+    },
+    {
+      "data": "08/03",
+      "spend": 39.14
+    },
+    {
+      "data": "08/04",
+      "spend": 66.2
+    },
+    {
+      "data": "08/05",
+      "spend": 53.71
+    },
+    {
+      "data": "08/12",
+      "spend": 169.01
+    },
+    {
+      "data": "09/01",
+      "spend": 187.64
+    },
+    {
+      "data": "09/02",
+      "spend": 68.33
+    },
+    {
+      "data": "09/03",
+      "spend": 47.54
+    },
+    {
+      "data": "09/04",
+      "spend": 73.14
+    },
+    {
+      "data": "09/05",
+      "spend": 62.14
+    },
+    {
+      "data": "09/12",
+      "spend": 186.06
+    },
+    {
+      "data": "10/01",
+      "spend": 225.2
+    },
+    {
+      "data": "10/02",
+      "spend": 65.8
+    },
+    {
+      "data": "10/03",
+      "spend": 48.48
+    },
+    {
+      "data": "10/04",
+      "spend": 54.28
+    },
+    {
+      "data": "10/05",
+      "spend": 80.68
+    },
+    {
+      "data": "10/12",
+      "spend": 144.05
+    },
+    {
+      "data": "11/01",
+      "spend": 274.06
+    },
+    {
+      "data": "11/02",
+      "spend": 69.16
+    },
+    {
+      "data": "11/03",
+      "spend": 37.79
+    },
+    {
+      "data": "11/04",
+      "spend": 69.67
+    },
+    {
+      "data": "11/05",
+      "spend": 72.28
+    },
+    {
+      "data": "11/12",
+      "spend": 151.21
+    },
+    {
+      "data": "12/01",
+      "spend": 243.27
+    },
+    {
+      "data": "12/02",
+      "spend": 62.72
+    },
+    {
+      "data": "12/03",
+      "spend": 36.5
+    },
+    {
+      "data": "12/04",
+      "spend": 86.85
+    },
+    {
+      "data": "12/05",
+      "spend": 67.05
+    },
+    {
+      "data": "12/12",
+      "spend": 148.78
+    },
+    {
+      "data": "13/01",
+      "spend": 256.9
+    },
+    {
+      "data": "13/02",
+      "spend": 69.22
+    },
+    {
+      "data": "13/03",
+      "spend": 35.86
+    },
+    {
+      "data": "13/04",
+      "spend": 78.85
+    },
+    {
+      "data": "13/05",
+      "spend": 68.64
+    },
+    {
+      "data": "13/12",
+      "spend": 166.6
+    },
+    {
+      "data": "14/01",
+      "spend": 306.32
+    },
+    {
+      "data": "14/02",
+      "spend": 62.13
+    },
+    {
+      "data": "14/03",
+      "spend": 34.2
+    },
+    {
+      "data": "14/04",
+      "spend": 74.74
+    },
+    {
+      "data": "14/05",
+      "spend": 82.64
+    },
+    {
+      "data": "14/12",
+      "spend": 175.82
+    },
+    {
+      "data": "15/01",
+      "spend": 239.67
+    },
+    {
+      "data": "15/02",
+      "spend": 72.67
+    },
+    {
+      "data": "15/03",
+      "spend": 44.72
+    },
+    {
+      "data": "15/04",
+      "spend": 61.92
+    },
+    {
+      "data": "15/05",
+      "spend": 59.64
+    },
+    {
+      "data": "15/12",
+      "spend": 159.13
+    },
+    {
+      "data": "16/01",
+      "spend": 115.83
+    },
+    {
+      "data": "16/02",
+      "spend": 72.64
+    },
+    {
+      "data": "16/03",
+      "spend": 42.98
+    },
+    {
+      "data": "16/04",
+      "spend": 71.7
+    },
+    {
+      "data": "16/05",
+      "spend": 57.55
+    },
+    {
+      "data": "16/12",
+      "spend": 182.69
+    },
+    {
+      "data": "17/01",
+      "spend": 176.33
+    },
+    {
+      "data": "17/02",
+      "spend": 75.41
+    },
+    {
+      "data": "17/03",
+      "spend": 39.39
+    },
+    {
+      "data": "17/04",
+      "spend": 55.88
+    },
+    {
+      "data": "17/05",
+      "spend": 78.77
+    },
+    {
+      "data": "17/12",
+      "spend": 141.68
+    },
+    {
+      "data": "18/01",
+      "spend": 180.43
+    },
+    {
+      "data": "18/02",
+      "spend": 70.48
+    },
+    {
+      "data": "18/03",
+      "spend": 33.73
+    },
+    {
+      "data": "18/04",
+      "spend": 58.34
+    },
+    {
+      "data": "18/05",
+      "spend": 66.98
+    },
+    {
+      "data": "18/12",
+      "spend": 152.41
+    },
+    {
+      "data": "19/01",
+      "spend": 190.65
+    },
+    {
+      "data": "19/02",
+      "spend": 72.22
+    },
+    {
+      "data": "19/03",
+      "spend": 38.12
+    },
+    {
+      "data": "19/04",
+      "spend": 72.69
+    },
+    {
+      "data": "19/05",
+      "spend": 71.29
+    },
+    {
+      "data": "19/12",
+      "spend": 152.52
+    },
+    {
+      "data": "20/01",
+      "spend": 185.23
+    },
+    {
+      "data": "20/02",
+      "spend": 63.58
+    },
+    {
+      "data": "20/03",
+      "spend": 36.11
+    },
+    {
+      "data": "20/04",
+      "spend": 83.4
+    },
+    {
+      "data": "20/05",
+      "spend": 67.0
+    },
+    {
+      "data": "20/12",
+      "spend": 152.2
+    },
+    {
+      "data": "21/01",
+      "spend": 174.07
+    },
+    {
+      "data": "21/02",
+      "spend": 61.0
+    },
+    {
+      "data": "21/03",
+      "spend": 43.69
+    },
+    {
+      "data": "21/04",
+      "spend": 72.06
+    },
+    {
+      "data": "21/05",
+      "spend": 60.63
+    },
+    {
+      "data": "21/12",
+      "spend": 166.24
+    },
+    {
+      "data": "22/01",
+      "spend": 205.66
+    },
+    {
+      "data": "22/02",
+      "spend": 72.02
+    },
+    {
+      "data": "22/03",
+      "spend": 43.59
+    },
+    {
+      "data": "22/04",
+      "spend": 65.98
+    },
+    {
+      "data": "22/05",
+      "spend": 68.32
+    },
+    {
+      "data": "22/12",
+      "spend": 166.22
+    },
+    {
+      "data": "23/01",
+      "spend": 207.26
+    },
+    {
+      "data": "23/02",
+      "spend": 68.22
+    },
+    {
+      "data": "23/03",
+      "spend": 42.41
+    },
+    {
+      "data": "23/04",
+      "spend": 65.27
+    },
+    {
+      "data": "23/05",
+      "spend": 75.44
+    },
+    {
+      "data": "23/12",
+      "spend": 164.17
+    },
+    {
+      "data": "24/01",
+      "spend": 210.79
+    },
+    {
+      "data": "24/02",
+      "spend": 74.07
+    },
+    {
+      "data": "24/03",
+      "spend": 44.77
+    },
+    {
+      "data": "24/04",
+      "spend": 62.99
+    },
+    {
+      "data": "24/05",
+      "spend": 71.13
+    },
+    {
+      "data": "24/12",
+      "spend": 144.78
+    },
+    {
+      "data": "25/01",
+      "spend": 223.77
+    },
+    {
+      "data": "25/02",
+      "spend": 57.55
+    },
+    {
+      "data": "25/03",
+      "spend": 76.93
+    },
+    {
+      "data": "25/04",
+      "spend": 62.94
+    },
+    {
+      "data": "25/05",
+      "spend": 76.63
+    },
+    {
+      "data": "25/12",
+      "spend": 160.61
+    },
+    {
+      "data": "26/01",
+      "spend": 215.04
+    },
+    {
+      "data": "26/02",
+      "spend": 66.84
+    },
+    {
+      "data": "26/03",
+      "spend": 79.35
+    },
+    {
+      "data": "26/04",
+      "spend": 68.68
+    },
+    {
+      "data": "26/05",
+      "spend": 72.22
+    },
+    {
+      "data": "26/12",
+      "spend": 152.84
+    },
+    {
+      "data": "27/01",
+      "spend": 98.64
+    },
+    {
+      "data": "27/02",
+      "spend": 68.22
+    },
+    {
+      "data": "27/03",
+      "spend": 66.09
+    },
+    {
+      "data": "27/04",
+      "spend": 70.06
+    },
+    {
+      "data": "27/12",
+      "spend": 164.33
+    },
+    {
+      "data": "28/01",
+      "spend": 87.34
+    },
+    {
+      "data": "28/02",
+      "spend": 78.63
+    },
+    {
+      "data": "28/03",
+      "spend": 87.96
+    },
+    {
+      "data": "28/04",
+      "spend": 78.83
+    },
+    {
+      "data": "28/12",
+      "spend": 187.28
+    },
+    {
+      "data": "29/01",
+      "spend": 84.93
+    },
+    {
+      "data": "29/03",
+      "spend": 83.71
+    },
+    {
+      "data": "29/04",
+      "spend": 67.5
+    },
+    {
+      "data": "29/12",
+      "spend": 120.0
+    },
+    {
+      "data": "30/01",
+      "spend": 85.42
+    },
+    {
+      "data": "30/03",
+      "spend": 64.08
+    },
+    {
+      "data": "30/04",
+      "spend": 59.56
+    },
+    {
+      "data": "30/12",
+      "spend": 96.49
+    },
+    {
+      "data": "31/01",
+      "spend": 86.18
+    },
+    {
+      "data": "31/03",
+      "spend": 62.71
+    },
+    {
+      "data": "31/12",
+      "spend": 111.24
+    }
+  ],
   "leitura": {
-    "es": "El CPL global de € 6.22 está dentro del rango esperado para campañas evergreen. Facebook sigue siendo el canal dominante en los tres webinarios, con más del 54% de los leads en todos los segmentos. El criativo 01.VD-ING-CALCULADORA es el que más gasta y el que más Ideales genera en ING LATAM. La tasa de asistencia en vivo ronda el 45%, que es saludable para el formato evergreen. El público COLD sigue aportando más volumen, mientras que HOT mantiene un CPL ligeramente superior pero con mejor calidad de lead.",
-    "pt": "O CPL global de € 6,22 está dentro do esperado para campanhas evergreen. O Facebook continua sendo o canal dominante nos três webinários, com mais de 54% dos leads em todos os segmentos. O criativo 01.VD-ING-CALCULADORA é o que mais gasta e o que mais Ideais gera no ING LATAM. A taxa de comparecimento ao vivo fica em torno de 45%, saudável para o formato evergreen. O público FRIO continua trazendo mais volume, enquanto o QUENTE mantém CPL levemente maior, mas com melhor qualidade de lead."
+    "pt": "ING LATAM: CPL geral de € 3,34, com FRIO mais eficiente (€ 2,44) do que QUENTE (€ 4,66). Facebook responde por 73% dos leads. O criativo \"01.VD-ING-CALCULADORA\" no conjunto FRIO via Facebook gera a maior quantidade de leads ideais. Taxa de comparecimento ao vivo de 18,9% abaixo do esperado para um evergreen. Os dois públicos estão rodando e o frio está puxando o volume.\n\nING ESPAÑA: CPL de € 17,66 com QUENTE (€ 16,11) e FRIO (€ 15,48) praticamente iguais. Instagram e Facebook estão equilibrados em volume. O criativo \"01.VD-ING-CALCULADORA\" performa bem nos dois canais. Taxa de comparecimento ao vivo de 30,4% é boa para um evergreen e 20,4% chegaram à oferta. Os dois públicos estão ativos com performance similar.\n\nARQ ESPAÑA: CPL de € 22,42, com QUENTE mais caro (€ 28,49) do que FRIO (€ 16,47). Instagram domina com 66% dos leads. O criativo \"01.VD-ARQ-CALCULADORA\" via Instagram concentra os melhores resultados. Taxa de comparecimento ao vivo de 45,2% é a maior dos três webinários e 36,3% chegaram à oferta. O público frio está sendo mais eficiente em custo.",
+    "es": "ING LATAM: El CPL global es de € 3,34, con COLD más eficiente (€ 2,44) que HOT (€ 4,66). Facebook aporta el 73% de los leads. El creativo \"01.VD-ING-CALCULADORA\" en el conjunto COLD vía Facebook es el que más leads ideales genera. La asistencia en vivo del 18,9% está por debajo de lo esperado para un evergreen. Las dos audiencias están activas y el público frío lleva el volumen.\n\nING ESPAÑA: CPL de € 17,66 con HOT (€ 16,11) y COLD (€ 15,48) prácticamente iguales. Instagram y Facebook están equilibrados en volumen. El creativo \"01.VD-ING-CALCULADORA\" funciona bien en ambos canales. La asistencia en vivo del 30,4% es sólida y el 20,4% llegó a la oferta. Ambas audiencias están activas con rendimiento similar.\n\nARQ ESPAÑA: CPL de € 22,42, con HOT más caro (€ 28,49) que COLD (€ 16,47). Instagram domina con el 66% de los leads. El creativo \"01.VD-ARQ-CALCULADORA\" vía Instagram concentra los mejores resultados. La asistencia en vivo del 45,2% es la más alta de los tres webinarios y el 36,3% llegó a la oferta. El público frío está siendo más eficiente en coste."
   }
 }
