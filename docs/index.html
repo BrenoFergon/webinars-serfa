@@ -50,14 +50,14 @@ main{max-width:1200px;margin:0 auto;padding:24px 20px}
 .kpi-card .val{font-size:30px;font-weight:800;letter-spacing:-.5px;line-height:1}
 .kpi-card .sub{font-size:11px;color:var(--muted);margin-top:5px}
 .kpi-invest .val{color:var(--text)}
-.kpi-cpl    .val{color:var(--accent)}
-.kpi-leads  .val{color:var(--text)}
+.kpi-cpl .val{color:var(--accent)}
+.kpi-leads .val{color:var(--text)}
 .hc-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
 .hc-card{border-radius:var(--r);padding:16px 20px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
 .hc-card.hot{background:var(--hot-dim);border:1px solid rgba(244,63,94,.25)}
 .hc-card.cold{background:var(--cold-dim);border:1px solid rgba(59,130,246,.25)}
 .hc-tag{grid-column:1/-1;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.1em;margin-bottom:4px}
-.hc-card.hot  .hc-tag{color:var(--hot)}
+.hc-card.hot .hc-tag{color:var(--hot)}
 .hc-card.cold .hc-tag{color:var(--cold)}
 .hc-item .k{font-size:10px;color:var(--muted);margin-bottom:2px}
 .hc-item .v{font-size:16px;font-weight:700}
@@ -67,19 +67,20 @@ main{max-width:1200px;margin:0 auto;padding:24px 20px}
 .funil-row:last-child{margin-bottom:0}
 .funil-bar-wrap{height:26px;background:var(--s2);border-radius:5px;overflow:hidden;margin-bottom:4px}
 .funil-bar-fill{height:100%;border-radius:5px;background:linear-gradient(90deg,#6366f1 0%,#3b82f6 50%,#22d3ee 100%);display:flex;align-items:center;padding:0 10px;min-width:80px}
+.funil-bar-leads{height:100%;border-radius:5px;background:linear-gradient(90deg,#059669,#00d4aa);display:flex;align-items:center;padding:0 10px;min-width:80px}
 .funil-bar-label{font-size:11px;font-weight:700;color:#fff;white-space:nowrap}
 .funil-bar-val{font-size:11px;font-weight:700;color:#fff;margin-left:auto;white-space:nowrap}
-.funil-bar-leads{height:100%;border-radius:5px;background:linear-gradient(90deg,#059669,#00d4aa);display:flex;align-items:center;padding:0 10px;min-width:80px}
 .funil-connector{font-size:10px;color:var(--muted);padding-left:4px;margin-bottom:10px}
 .funil-connector strong{color:var(--accent);font-size:11px}
 .seg-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
-.seg-card{background:var(--s1);border:1px solid var(--bd);border-radius:var(--r);padding:16px 20px}
+.seg-card{background:var(--s1);border:1px solid var(--bd);border-radius:var(--r);padding:16px 20px;overflow-x:auto}
 .seg-table{width:100%;border-collapse:collapse;font-size:12px}
-.seg-table th{text-align:left;color:var(--muted);font-weight:600;font-size:10px;text-transform:uppercase;letter-spacing:.06em;padding:0 6px 8px;border-bottom:1px solid var(--bd)}
-.seg-table td{padding:7px 6px;border-bottom:1px solid rgba(29,45,69,.5);vertical-align:middle}
+.seg-table th{text-align:left;color:var(--muted);font-weight:600;font-size:10px;text-transform:uppercase;letter-spacing:.06em;padding:0 8px 8px;border-bottom:1px solid var(--bd);white-space:nowrap}
+.seg-table td{padding:7px 8px;border-bottom:1px solid rgba(29,45,69,.5);vertical-align:middle;white-space:nowrap}
 .seg-table tr:last-child td{border-bottom:none}
-.seg-table .spend-val{color:var(--text)}
 .seg-table .name-cell{font-weight:500}
+.seg-table .spend-val{color:var(--text)}
+.seg-table .metric-val{color:var(--accent);font-weight:600}
 .dia-grid{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
 .dia-card{background:var(--s1);border:1px solid var(--bd);border-radius:var(--r);padding:10px 12px;min-width:72px;text-align:center;flex:0 0 auto}
 .dia-card.today{background:var(--accent);border-color:var(--accent)}
@@ -124,8 +125,8 @@ main{max-width:1200px;margin:0 auto;padding:24px 20px}
 .pill-num{font-size:24px;font-weight:800;line-height:1}
 .pill-lbl{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-top:3px}
 .pill-ideal .pill-num{color:var(--ideal)}
-.pill-bom   .pill-num{color:var(--bom)}
-.pill-desc  .pill-num{color:var(--desc)}
+.pill-bom .pill-num{color:var(--bom)}
+.pill-desc .pill-num{color:var(--desc)}
 .score-table{width:100%;border-collapse:collapse;font-size:12px}
 .score-table th{text-align:left;color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.06em;font-weight:600;padding:0 6px 8px;border-bottom:1px solid var(--bd)}
 .score-table td{padding:6px 6px;border-bottom:1px solid rgba(29,45,69,.5);vertical-align:middle}
@@ -147,7 +148,7 @@ main{max-width:1200px;margin:0 auto;padding:24px 20px}
 <body>
 <header>
   <div class="hdr-left">
-    <a class="logo" href="#"><div class="logo-box"><svg viewBox="0 0 16 16"><path d="M2 2h5v5H2zM9 2h5v5H9zM2 9h5v5H2zM9 9h5v5H9z"/></svg></div><span class="logo-text">FOR<span>TRAFFIC</span></span></a>
+    <a class="logo" href="#"><div class="logo-box"><svg viewBox="0 0 16 16"><path d="M2 2h5v5H2zM9 2h5v5H9zM2 9h5v5H9z"/></svg></div><span class="logo-text">FOR<span>TRAFFIC</span></span></a>
     <div class="hdr-campaign"><strong id="hdr-title">Webinars Evergreen SERFA</strong>&nbsp;·&nbsp;<span id="hdr-periodo"></span></div>
   </div>
   <div class="hdr-right">
@@ -159,10 +160,10 @@ main{max-width:1200px;margin:0 auto;padding:24px 20px}
   </div>
 </header>
 <div class="time-bar">
-  <button class="tf-btn active" data-tf="mensal"        onclick="setTF(this)">—</button>
-  <button class="tf-btn"        data-tf="semanal"       onclick="setTF(this)">—</button>
-  <button class="tf-btn"        data-tf="diario"        onclick="setTF(this)">—</button>
-  <button class="tf-btn"        data-tf="personalizado" onclick="setTF(this)">—</button>
+  <button class="tf-btn active" data-tf="mensal" onclick="setTF(this)">—</button>
+  <button class="tf-btn" data-tf="semanal" onclick="setTF(this)">—</button>
+  <button class="tf-btn" data-tf="diario" onclick="setTF(this)">—</button>
+  <button class="tf-btn" data-tf="personalizado" onclick="setTF(this)">—</button>
   <div class="tf-dates" id="tf-dates">
     <span id="lbl-de">De:</span><input type="date" id="date-from" onchange="applyCustom()"/>
     <span id="lbl-ate">Até:</span><input type="date" id="date-to" onchange="applyCustom()"/>
@@ -170,7 +171,6 @@ main{max-width:1200px;margin:0 auto;padding:24px 20px}
 </div>
 <div class="wt-bar" id="wt-bar"></div>
 <main><div id="content"></div></main>
-
 <script>
 let DATA=null,LANG='pt',TF='mensal',WI=0,chartInstance=null;
 const T={
@@ -180,7 +180,8 @@ const T={
 const t=k=>T[LANG][k]||k;
 const EUR=v=>`€ ${parseFloat(v).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}`;
 const NUM=v=>parseInt(v).toLocaleString('pt-BR');
-const PCT=v=>`${parseFloat(v).toFixed(1)}%`;
+const PCT=v=>`${parseFloat(v).toFixed(2)}%`;
+const PCT1=v=>`${parseFloat(v).toFixed(1)}%`;
 
 function filterArr(arr){
   if(!arr?.length)return[];
@@ -246,17 +247,15 @@ function renderHC(w){
   </div>`;}
 
 function renderFunil(w){
-  // Funil global + taxa conversão calculada com leads do webinário atual
-  const g=DATA.funil_global;
-  if(!g)return'';
+  const g=DATA.funil_global;if(!g)return'';
   const totalLeads=DATA.webinarios.reduce((s,wb)=>s+wb.kpis.leads_total,0);
-  const txConv=g.page_views>0?round2(totalLeads/g.page_views*100):0;
+  const txConv=g.page_views>0?(totalLeads/g.page_views*100).toFixed(2):0;
   const max=g.impressoes;
   const rows=[
     {label:t('impressoes'),val:g.impressoes,pct:100,connector:null,green:false},
     {label:t('link_clicks'),val:g.cliques,pct:g.cliques/max*100,connector:`${PCT(g.ctr)} ${t('ctr_lbl')}`,green:false},
     {label:t('page_views'),val:g.page_views,pct:g.page_views/max*100,connector:`${PCT(g.connect_rate)} ${t('connect')}`,green:false},
-    {label:t('leads'),val:totalLeads,pct:totalLeads/max*100,connector:`${PCT(txConv)} ${t('conversao')}`,green:true},
+    {label:t('leads'),val:totalLeads,pct:totalLeads/max*100,connector:`${txConv}% ${t('conversao')}`,green:true},
   ];
   return`
   <div class="sec-label"><span class="sec-dot"></span><span class="sec-title">${t('funil')}</span></div>
@@ -265,18 +264,26 @@ function renderFunil(w){
     <div class="funil-row"><div class="funil-bar-wrap"><div class="${r.green?'funil-bar-leads':'funil-bar-fill'}" style="width:${Math.max(r.pct,3)}%"><span class="funil-bar-label">${r.label}</span><span class="funil-bar-val">${NUM(r.val)}</span></div></div></div>`).join('')}
   </div>`;}
 
-function round2(v){return Math.round(v*100)/100;}
-
 function renderSeg(){
-  // Exibe apenas Invest. — Leads e CPL não estão disponíveis no breakdown do Gerenciador
   const gNames={female:t('female'),male:t('male'),unknown:t('unknown')};
-  const genRows=DATA.segmentacao.genero.map(g=>`<tr><td class="name-cell">${gNames[g.grupo]||g.grupo}</td><td class="spend-val">${EUR(g.spend)}</td></tr>`).join('');
-  const fxRows=DATA.segmentacao.faixa_etaria.map(f=>`<tr><td class="name-cell">${f.grupo}</td><td class="spend-val">${EUR(f.spend)}</td></tr>`).join('');
+  // Detecta automaticamente se o JSON tem CTR/CPM/CPC
+  const hasMet=DATA.segmentacao.genero[0]?.ctr!=null;
+  const thExtra=hasMet?`<th>CTR</th><th>CPM</th><th>CPC</th>`:'';
+  const genRows=DATA.segmentacao.genero.map(g=>{
+    const extra=hasMet?`<td class="metric-val">${PCT(g.ctr)}</td><td class="metric-val">${EUR(g.cpm)}</td><td class="metric-val">${EUR(g.cpc)}</td>`:'';
+    return`<tr><td class="name-cell">${gNames[g.grupo]||g.grupo}</td><td class="spend-val">${EUR(g.spend)}</td>${extra}</tr>`;
+  }).join('');
+  const hasFxMet=DATA.segmentacao.faixa_etaria[0]?.ctr!=null;
+  const thFxExtra=hasFxMet?`<th>CTR</th><th>CPM</th><th>CPC</th>`:'';
+  const fxRows=DATA.segmentacao.faixa_etaria.map(f=>{
+    const extra=hasFxMet?`<td class="metric-val">${PCT(f.ctr)}</td><td class="metric-val">${EUR(f.cpm)}</td><td class="metric-val">${EUR(f.cpc)}</td>`:'';
+    return`<tr><td class="name-cell">${f.grupo}</td><td class="spend-val">${EUR(f.spend)}</td>${extra}</tr>`;
+  }).join('');
   return`
   <div class="sec-label"><span class="sec-dot"></span><span class="sec-title">${t('segmentacao')}</span></div>
   <div class="seg-row">
-    <div class="seg-card"><div class="sec-title" style="margin-bottom:10px">${t('genero')}</div><table class="seg-table"><thead><tr><th>${t('genero_col')}</th><th>${t('invest_col')}</th></tr></thead><tbody>${genRows}</tbody></table></div>
-    <div class="seg-card"><div class="sec-title" style="margin-bottom:10px">${t('faixa')}</div><table class="seg-table"><thead><tr><th>${t('faixa')}</th><th>${t('invest_col')}</th></tr></thead><tbody>${fxRows}</tbody></table></div>
+    <div class="seg-card"><div class="sec-title" style="margin-bottom:10px">${t('genero')}</div><table class="seg-table"><thead><tr><th>${t('genero_col')}</th><th>${t('invest_col')}</th>${thExtra}</tr></thead><tbody>${genRows}</tbody></table></div>
+    <div class="seg-card"><div class="sec-title" style="margin-bottom:10px">${t('faixa')}</div><table class="seg-table"><thead><tr><th>${t('faixa')}</th><th>${t('invest_col')}</th>${thFxExtra}</tr></thead><tbody>${fxRows}</tbody></table></div>
   </div>`;}
 
 function buildDiaCards(w){
@@ -310,20 +317,12 @@ function buildChart(w){
   const title=document.getElementById('chart-sec-title');if(title)title.textContent=t('chart_title');}
 
 function renderCC(w){
-  // Criativos por leads do webinário atual (via lead_scoring grupos)
   const sc=w.lead_scoring;
   let crivHTML='';
   if(sc&&sc.grupos&&sc.grupos.length){
-    // Agrega por criativo
     const byCreat={};
-    sc.grupos.forEach(g=>{
-      const k=g.criativo||'—';
-      if(!byCreat[k])byCreat[k]={leads:0,spend:0};
-      byCreat[k].leads+=g.total||0;
-    });
-    // Tenta cruzar com spend global de criativos
-    const spendMap={};
-    (DATA.criativos||[]).forEach(c=>{spendMap[c.nome]=c.spend;});
+    sc.grupos.forEach(g=>{const k=g.criativo||'—';if(!byCreat[k])byCreat[k]={leads:0};byCreat[k].leads+=g.total||0;});
+    const spendMap={};(DATA.criativos||[]).forEach(c=>{spendMap[c.nome]=c.spend;});
     const sorted=Object.entries(byCreat).sort((a,b)=>b[1].leads-a[1].leads).slice(0,8);
     const maxL=sorted[0]?.[1]?.leads||1;
     crivHTML=sorted.map(([nome,v])=>{
@@ -332,18 +331,15 @@ function renderCC(w){
       return`<div class="criativo-row"><span class="criativo-name" title="${nome}">${nome}</span><div class="criativo-bar-wrap"><div class="criativo-bar" style="width:${v.leads/maxL*100}%"></div></div><span class="criativo-leads">${v.leads}</span><span class="criativo-cpl">${cpl}</span></div>`;
     }).join('');
   } else {
-    // Fallback: sem dados de leads, mostra spend
     const maxS=DATA.criativos[0]?.spend||1;
     crivHTML=(DATA.criativos||[]).map(c=>`<div class="criativo-row"><span class="criativo-name" title="${c.nome}">${c.nome}</span><div class="criativo-bar-wrap"><div class="criativo-bar" style="width:${c.spend/maxS*100}%"></div></div><span class="criativo-leads" style="width:70px">${EUR(c.spend)}</span></div>`).join('');
   }
-  const canalHTML=w.canais.map(c=>`<tr><td>${c.canal==='Sin Trackeo'?t('sin_trackeo'):c.canal}</td><td>${NUM(c.leads)}</td><td class="pct-cell">${PCT(c.pct)}</td></tr>`).join('');
+  const canalHTML=w.canais.map(c=>`<tr><td>${c.canal==='Sin Trackeo'?t('sin_trackeo'):c.canal}</td><td>${NUM(c.leads)}</td><td class="pct-cell">${PCT1(c.pct)}</td></tr>`).join('');
   return`
   <div class="cc-row">
     <div class="card">
       <div class="sec-label" style="margin-top:0"><span class="sec-dot"></span><span class="sec-title">${t('criativos')}</span></div>
-      <div style="display:flex;gap:4px;margin-bottom:6px;padding-right:4px">
-        <span style="font-size:9px;color:var(--muted);flex:1;text-align:right;padding-right:78px;text-transform:uppercase;letter-spacing:.05em">${t('leads_col')} / ${t('cpl_col')}</span>
-      </div>
+      <div style="display:flex;justify-content:flex-end;gap:4px;margin-bottom:6px"><span style="font-size:9px;color:var(--muted);width:30px;text-align:right;text-transform:uppercase;letter-spacing:.05em">${t('leads_col')}</span><span style="font-size:9px;color:var(--muted);width:52px;text-align:right;text-transform:uppercase;letter-spacing:.05em">${t('cpl_col')}</span></div>
       <div class="criativo-list">${crivHTML}</div>
     </div>
     <div class="card"><div class="sec-label" style="margin-top:0"><span class="sec-dot"></span><span class="sec-title">${t('canais')}</span></div><table class="canal-table"><thead><tr><th>${t('canal_col')}</th><th>${t('leads_col')}</th><th>${t('pct_col')}</th></tr></thead><tbody>${canalHTML}</tbody></table></div>
@@ -354,9 +350,9 @@ function renderPresenca(w){
   return`
   <div class="sec-label"><span class="sec-dot"></span><span class="sec-title">${t('presenca')}</span></div>
   <div class="pres-card"><div class="pres-grid">
-    <div><div class="pres-hdr"><span class="pres-lbl">${t('ao_vivo')}</span><span class="pres-val">${p.comparecimento_live} <span style="color:var(--muted);font-weight:400">(${PCT(p.pct_live)})</span></span></div><div class="bar-track"><div class="bar-fill bar-live" style="width:${p.pct_live}%"></div></div></div>
-    <div><div class="pres-hdr"><span class="pres-lbl">${t('replay')}</span><span class="pres-val">${p.comparecimento_replay} <span style="color:var(--muted);font-weight:400">(${PCT(p.pct_replay)})</span></span></div><div class="bar-track"><div class="bar-fill bar-replay" style="width:${p.pct_replay}%"></div></div></div>
-    <div><div class="pres-hdr"><span class="pres-lbl">${t('oferta')}</span><span class="pres-val">${p.viu_oferta} <span style="color:var(--muted);font-weight:400">(${PCT(p.pct_oferta)})</span></span></div><div class="bar-track"><div class="bar-fill bar-oferta" style="width:${p.pct_oferta}%"></div></div></div>
+    <div><div class="pres-hdr"><span class="pres-lbl">${t('ao_vivo')}</span><span class="pres-val">${p.comparecimento_live} <span style="color:var(--muted);font-weight:400">(${PCT1(p.pct_live)})</span></span></div><div class="bar-track"><div class="bar-fill bar-live" style="width:${p.pct_live}%"></div></div></div>
+    <div><div class="pres-hdr"><span class="pres-lbl">${t('replay')}</span><span class="pres-val">${p.comparecimento_replay} <span style="color:var(--muted);font-weight:400">(${PCT1(p.pct_replay)})</span></span></div><div class="bar-track"><div class="bar-fill bar-replay" style="width:${p.pct_replay}%"></div></div></div>
+    <div><div class="pres-hdr"><span class="pres-lbl">${t('oferta')}</span><span class="pres-val">${p.viu_oferta} <span style="color:var(--muted);font-weight:400">(${PCT1(p.pct_oferta)})</span></span></div><div class="bar-track"><div class="bar-fill bar-oferta" style="width:${p.pct_oferta}%"></div></div></div>
   </div></div>`;}
 
 function renderScoring(w){
