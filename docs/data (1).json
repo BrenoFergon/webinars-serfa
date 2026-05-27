@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "cliente": "ForTraffic (SERFA)",
+    "webinarios": [
+      "EVERGREEN FORTRAFFIC ING LATAM",
+      "EVERGREEN FORTRAFFIC ING ESPAÑA",
+      "EVERGREEN FORTRAFFIC ARQ ESPAÑA"
+    ],
+    "periodo": "01/05/2026 a 27/05/2026",
+    "atualizado_em": "27/05/2026 14:30"
+  },
+  "funil_global": {
+    "investimento_total": 3842.50,
+    "impressoes": 412800,
+    "cliques": 9640,
+    "page_views": 7710,
+    "ctr": 2.34,
+    "connect_rate": 79.98
+  },
+  "webinarios": [
+    {
+      "webinario": "EVERGREEN FORTRAFFIC ING LATAM",
+      "kpis": {
+        "investimento_total": 1620.00,
+        "cpl_total": 5.48,
+        "leads_total": 295
+      },
+      "audiencias": {
+        "hot": { "leads": 88, "spend": 540.00, "cpl": 6.14 },
+        "cold": { "leads": 187, "spend": 1080.00, "cpl": 5.78 }
+      },
+      "presenca": {
+        "comparecimento_live": 142, "pct_live": 48.1,
+        "comparecimento_replay": 67, "pct_replay": 22.7,
+        "viu_oferta": 48, "pct_oferta": 16.3
+      },
+      "canais": [
+        { "canal": "Facebook", "leads": 162, "pct": 54.9 },
+        { "canal": "Instagram", "leads": 98, "pct": 33.2 },
+        { "canal": "Audience Network", "leads": 15, "pct": 5.1 },
+        { "canal": "Sin Trackeo", "leads": 20, "pct": 6.8 }
+      ],
+      "leads_por_dia": [
+        { "data": "01/05", "leads": 8 }, { "data": "02/05", "leads": 11 },
+        { "data": "03/05", "leads": 9 }, { "data": "04/05", "leads": 13 },
+        { "data": "05/05", "leads": 10 }, { "data": "06/05", "leads": 12 },
+        { "data": "07/05", "leads": 14 }, { "data": "08/05", "leads": 11 },
+        { "data": "09/05", "leads": 9 }, { "data": "10/05", "leads": 15 },
+        { "data": "11/05", "leads": 12 }, { "data": "12/05", "leads": 10 },
+        { "data": "13/05", "leads": 13 }, { "data": "14/05", "leads": 11 },
+        { "data": "15/05", "leads": 16 }, { "data": "16/05", "leads": 14 },
+        { "data": "17/05", "leads": 10 }, { "data": "18/05", "leads": 12 },
+        { "data": "19/05", "leads": 9 }, { "data": "20/05", "leads": 13 }
+      ],
+      "lead_scoring": {
+        "totais": { "Ideal": 48, "Bom": 119, "Descarte": 128 },
+        "grupos": [
+          { "tipo": "COLD", "conjunto": "00-INT-DIRETOS-ING", "criativo": "01.VD-ING-CALCULADORA", "canal": "fb", "ideal": 18, "bom": 45, "descarte": 52, "total": 115 },
+          { "tipo": "HOT", "conjunto": "00-ENG-90D-ING", "criativo": "02.VD-ING-RESULTADOS", "canal": "ig", "ideal": 16, "bom": 38, "descarte": 34, "total": 88 },
+          { "tipo": "COLD", "conjunto": "00-INT-DIRETOS-ING", "criativo": "03.VD-ING-DEPOIMENTO", "canal": "fb", "ideal": 14, "bom": 36, "descarte": 42, "total": 92 }
+        ]
+      }
+    },
+    {
+      "webinario": "EVERGREEN FORTRAFFIC ING ESPAÑA",
+      "kpis": {
+        "investimento_total": 1380.00,
+        "cpl_total": 6.90,
+        "leads_total": 200
+      },
+      "audiencias": {
+        "hot": { "leads": 62, "spend": 460.00, "cpl": 7.42 },
+        "cold": { "leads": 118, "spend": 920.00, "cpl": 7.80 }
+      },
+      "presenca": {
+        "comparecimento_live": 88, "pct_live": 44.0,
+        "comparecimento_replay": 42, "pct_replay": 21.0,
+        "viu_oferta": 31, "pct_oferta": 15.5
+      },
+      "canais": [
+        { "canal": "Facebook", "leads": 110, "pct": 55.0 },
+        { "canal": "Instagram", "leads": 72, "pct": 36.0 },
+        { "canal": "Audience Network", "leads": 8, "pct": 4.0 },
+        { "canal": "Sin Trackeo", "leads": 10, "pct": 5.0 }
+      ],
+      "leads_por_dia": [
+        { "data": "01/05", "leads": 6 }, { "data": "02/05", "leads": 8 },
+        { "data": "03/05", "leads": 7 }, { "data": "04/05", "leads": 10 },
+        { "data": "05/05", "leads": 9 }, { "data": "06/05", "leads": 11 },
+        { "data": "07/05", "leads": 8 }, { "data": "08/05", "leads": 12 },
+        { "data": "09/05", "leads": 7 }, { "data": "10/05", "leads": 9 },
+        { "data": "11/05", "leads": 11 }, { "data": "12/05", "leads": 8 },
+        { "data": "13/05", "leads": 10 }, { "data": "14/05", "leads": 9 },
+        { "data": "15/05", "leads": 13 }, { "data": "16/05", "leads": 10 },
+        { "data": "17/05", "leads": 8 }, { "data": "18/05", "leads": 9 },
+        { "data": "19/05", "leads": 7 }, { "data": "20/05", "leads": 8 }
+      ],
+      "lead_scoring": {
+        "totais": { "Ideal": 31, "Bom": 82, "Descarte": 87 },
+        "grupos": [
+          { "tipo": "COLD", "conjunto": "00-INT-DIRETOS-ING", "criativo": "01.VD-ING-CALCULADORA", "canal": "fb", "ideal": 14, "bom": 38, "descarte": 40, "total": 92 },
+          { "tipo": "HOT", "conjunto": "00-ENG-90D-ING", "criativo": "02.VD-ING-RESULTADOS", "canal": "ig", "ideal": 12, "bom": 28, "descarte": 22, "total": 62 },
+          { "tipo": "COLD", "conjunto": "00-INT-DIRETOS-ING", "criativo": "03.VD-ING-DEPOIMENTO", "canal": "fb", "ideal": 5, "bom": 16, "descarte": 25, "total": 46 }
+        ]
+      }
+    },
+    {
+      "webinario": "EVERGREEN FORTRAFFIC ARQ ESPAÑA",
+      "kpis": {
+        "investimento_total": 842.50,
+        "cpl_total": 7.89,
+        "leads_total": 107
+      },
+      "audiencias": {
+        "hot": { "leads": 32, "spend": 280.00, "cpl": 8.75 },
+        "cold": { "leads": 68, "spend": 562.50, "cpl": 8.27 }
+      },
+      "presenca": {
+        "comparecimento_live": 47, "pct_live": 43.9,
+        "comparecimento_replay": 22, "pct_replay": 20.6,
+        "viu_oferta": 14, "pct_oferta": 13.1
+      },
+      "canais": [
+        { "canal": "Facebook", "leads": 58, "pct": 54.2 },
+        { "canal": "Instagram", "leads": 38, "pct": 35.5 },
+        { "canal": "Audience Network", "leads": 4, "pct": 3.7 },
+        { "canal": "Sin Trackeo", "leads": 7, "pct": 6.5 }
+      ],
+      "leads_por_dia": [
+        { "data": "01/05", "leads": 4 }, { "data": "02/05", "leads": 5 },
+        { "data": "03/05", "leads": 4 }, { "data": "04/05", "leads": 6 },
+        { "data": "05/05", "leads": 5 }, { "data": "06/05", "leads": 7 },
+        { "data": "07/05", "leads": 4 }, { "data": "08/05", "leads": 6 },
+        { "data": "09/05", "leads": 5 }, { "data": "10/05", "leads": 7 },
+        { "data": "11/05", "leads": 5 }, { "data": "12/05", "leads": 4 },
+        { "data": "13/05", "leads": 6 }, { "data": "14/05", "leads": 5 },
+        { "data": "15/05", "leads": 8 }, { "data": "16/05", "leads": 6 },
+        { "data": "17/05", "leads": 4 }, { "data": "18/05", "leads": 5 },
+        { "data": "19/05", "leads": 4 }, { "data": "20/05", "leads": 5 }
+      ],
+      "lead_scoring": {
+        "totais": { "Ideal": 14, "Bom": 42, "Descarte": 51 },
+        "grupos": [
+          { "tipo": "COLD", "conjunto": "00-INT-DIRETOS-ARQ", "criativo": "01.VD-ARQ-PORTFOLIO", "canal": "fb", "ideal": 8, "bom": 24, "descarte": 28, "total": 60 },
+          { "tipo": "HOT", "conjunto": "00-ENG-90D-ARQ", "criativo": "02.VD-ARQ-MERCADO", "canal": "ig", "ideal": 6, "bom": 18, "descarte": 23, "total": 47 }
+        ]
+      }
+    }
+  ],
+  "criativos": [
+    { "nome": "01.VD-ING-CALCULADORA", "spend": 820.00 },
+    { "nome": "02.VD-ING-RESULTADOS", "spend": 680.00 },
+    { "nome": "01.VD-ARQ-PORTFOLIO", "spend": 480.00 },
+    { "nome": "03.VD-ING-DEPOIMENTO", "spend": 440.00 },
+    { "nome": "02.VD-ARQ-MERCADO", "spend": 362.50 },
+    { "nome": "04.VD-ING-SALARIO", "spend": 340.00 },
+    { "nome": "05.VD-ING-ERRO", "spend": 280.00 },
+    { "nome": "03.VD-ARQ-DEPOIMENTO", "spend": 240.00 }
+  ],
+  "segmentacao": {
+    "genero": [
+      { "grupo": "female", "spend": 2304.00 },
+      { "grupo": "male", "spend": 1538.50 }
+    ],
+    "faixa_etaria": [
+      { "grupo": "18-24", "spend": 384.25 },
+      { "grupo": "25-34", "spend": 1152.75 },
+      { "grupo": "35-44", "spend": 1075.10 },
+      { "grupo": "45-54", "spend": 768.50 },
+      { "grupo": "55-64", "spend": 307.40 },
+      { "grupo": "65+", "spend": 154.50 }
+    ]
+  },
+  "leitura": {
+    "es": "El CPL global de € 6.22 está dentro del rango esperado para campañas evergreen. Facebook sigue siendo el canal dominante en los tres webinarios, con más del 54% de los leads en todos los segmentos. El criativo 01.VD-ING-CALCULADORA es el que más gasta y el que más Ideales genera en ING LATAM. La tasa de asistencia en vivo ronda el 45%, que es saludable para el formato evergreen. El público COLD sigue aportando más volumen, mientras que HOT mantiene un CPL ligeramente superior pero con mejor calidad de lead.",
+    "pt": "O CPL global de € 6,22 está dentro do esperado para campanhas evergreen. O Facebook continua sendo o canal dominante nos três webinários, com mais de 54% dos leads em todos os segmentos. O criativo 01.VD-ING-CALCULADORA é o que mais gasta e o que mais Ideais gera no ING LATAM. A taxa de comparecimento ao vivo fica em torno de 45%, saudável para o formato evergreen. O público FRIO continua trazendo mais volume, enquanto o QUENTE mantém CPL levemente maior, mas com melhor qualidade de lead."
+  }
+}
