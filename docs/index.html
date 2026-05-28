@@ -183,6 +183,15 @@ const NUM=v=>parseInt(v).toLocaleString('pt-BR');
 const PCT=v=>`${parseFloat(v).toFixed(2)}%`;
 const PCT1=v=>`${parseFloat(v).toFixed(1)}%`;
 
+// Converte "dd/mm" em chave numérica mm*100+dd para ordenação e comparação
+// Retorna 0 para formatos inválidos (ex: "Fri,"), evitando filtros quebrados
+function toSortKey(s){
+  if(!s||typeof s!=='string')return 0;
+  const m=s.match(/^(\d{1,2})\/(\d{1,2})/);
+  if(!m)return 0;
+  return parseInt(m[2])*100+parseInt(m[1]);
+}
+
 function filterArr(arr){
   if(!arr?.length)return[];
   if(TF==='mensal')return arr;
@@ -192,10 +201,10 @@ function filterArr(arr){
     const from=document.getElementById('date-from').value;
     const to=document.getElementById('date-to').value;
     if(!from||!to)return arr;
-    const toNum=s=>{const[dd,mm]=s.split('/').map(Number);return mm*100+dd;};
     const[,fm,fd]=from.split('-').map(Number);
     const[,tm,td]=to.split('-').map(Number);
-    return arr.filter(x=>{const n=toNum(x.data);return n>=fm*100+fd&&n<=tm*100+td;});
+    const fKey=fm*100+fd,tKey=tm*100+td;
+    return arr.filter(x=>{const n=toSortKey(x.data);return n>0&&n>=fKey&&n<=tKey;});
   }
   return arr;
 }
@@ -266,7 +275,6 @@ function renderFunil(w){
 
 function renderSeg(){
   const gNames={female:t('female'),male:t('male'),unknown:t('unknown')};
-  // Detecta automaticamente se o JSON tem CTR/CPM/CPC
   const hasMet=DATA.segmentacao.genero[0]?.ctr!=null;
   const thExtra=hasMet?`<th>CTR</th><th>CPM</th><th>CPC</th>`:'';
   const genRows=DATA.segmentacao.genero.map(g=>{
