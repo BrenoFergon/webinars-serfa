@@ -6,35 +6,35 @@
       "EVERGREEN FORTRAFFIC ING ESPAÑA",
       "EVERGREEN FORTRAFFIC ARQ ESPAÑA"
     ],
-    "periodo": "01/12/2025 a 29/05/2026",
-    "atualizado_em": "29/05/2026 12:14"
+    "periodo": "01/12/2025 a 30/05/2026",
+    "atualizado_em": "30/05/2026 12:13"
   },
   "funil_global": {
-    "investimento_total": 17332.59,
-    "impressoes": 3993600,
-    "cliques": 60461,
-    "page_views": 38063,
-    "ctr": 1.51,
-    "connect_rate": 62.95,
-    "taxa_conversao": 7.14
+    "investimento_total": 17394.75,
+    "impressoes": 4005406,
+    "cliques": 60589,
+    "page_views": 38192,
+    "ctr": 1.5127,
+    "connect_rate": 63.03,
+    "taxa_conversao": 7.12
   },
   "webinarios": [
     {
       "webinario": "EVERGREEN FORTRAFFIC ING LATAM",
       "kpis": {
-        "investimento_total": 7177.01,
-        "cpl_total": 3.37,
+        "investimento_total": 7196.14,
+        "cpl_total": 3.38,
         "leads_total": 2174
       },
       "audiencias": {
         "hot": {
           "leads": 854,
-          "spend": 4015.24,
-          "cpl": 4.7
+          "spend": 4026.14,
+          "cpl": 4.71
         },
         "cold": {
           "leads": 1277,
-          "spend": 3161.77,
+          "spend": 3170.0,
           "cpl": 2.48
         }
       },
@@ -66,6 +66,11 @@
           "canal": "Sin Trackeo",
           "leads": 42,
           "pct": 1.9
+        },
+        {
+          "canal": "th",
+          "leads": 4,
+          "pct": 0.2
         }
       ],
       "leads_por_dia": [
@@ -174,26 +179,26 @@
           {"tipo": "HOT", "conjunto": "00-ENG-90D-ING", "criativo": "03.VD EINSTEIN NUGGET-V3", "canal": "ig", "ideal": 6, "bom": 4, "descarte": 34, "total": 44}
         ]
       },
-      "leitura_es": "El CPL general es de €3,37, con HOT a €4,70 y COLD a €2,48. Facebook domina la captación con 1.605 leads sobre un total pagado de 2.132. HOT está activo con 854 registros captados. La asistencia en vivo fue del 18,9% y el 9,8% llegó a ver la oferta. El creativo con más leads Ideales es 01.VD-ING-CALCULADORA en Facebook vía tráfico COLD.",
-      "leitura_pt": "O CPL geral é de €3,37, com QUENTE a €4,70 e FRIO a €2,48. O Facebook domina a captação com 1.605 leads do total pago de 2.132. O público QUENTE está ativo com 854 registros captados. A presença ao vivo foi de 18,9% e 9,8% chegou a ver a oferta. O criativo com mais leads Ideais é o 01.VD-ING-CALCULADORA no Facebook via tráfego FRIO."
+      "leitura_es": "El CPL total es de €3,38, con el público COLD más eficiente a €2,48 frente al HOT a €4,71. Facebook es el canal dominante con 1.605 leads, representando el 75% del total pago. El público HOT está activo con 854 leads y €4.026,14 invertidos. La asistencia en vivo es del 18,9% y el 9,8% de los leads llegó a ver la oferta. El creativo con más Ideales es 01.VD-ING-CALCULADORA del conjunto COLD en Facebook.",
+      "leitura_pt": "O CPL total é de €3,38, com o público FRIO mais eficiente a €2,48 frente ao QUENTE a €4,71. O Facebook é o canal dominante com 1.605 leads, representando 75% do total pago. O público QUENTE está ativo com 854 leads e €4.026,14 investidos. A presença ao vivo é de 18,9% e 9,8% dos leads chegou a ver a oferta. O criativo com mais Ideais é 01.VD-ING-CALCULADORA do conjunto FRIO no Facebook."
     },
     {
       "webinario": "EVERGREEN FORTRAFFIC ING ESPAÑA",
       "kpis": {
-        "investimento_total": 6723.23,
-        "cpl_total": 17.83,
+        "investimento_total": 6755.01,
+        "cpl_total": 17.92,
         "leads_total": 388
       },
       "audiencias": {
         "hot": {
           "leads": 154,
-          "spend": 2492.22,
-          "cpl": 16.18
+          "spend": 2496.24,
+          "cpl": 16.21
         },
         "cold": {
           "leads": 223,
-          "spend": 3492.34,
-          "cpl": 15.66
+          "spend": 3513.15,
+          "cpl": 15.75
         }
       },
       "presenca": {
@@ -208,7 +213,8 @@
         {"canal": "Facebook", "leads": 182, "pct": 46.9},
         {"canal": "Instagram", "leads": 188, "pct": 48.5},
         {"canal": "Audience Network", "leads": 7, "pct": 1.8},
-        {"canal": "Sin Trackeo", "leads": 10, "pct": 2.6}
+        {"canal": "Sin Trackeo", "leads": 10, "pct": 2.6},
+        {"canal": "testesource", "leads": 1, "pct": 0.3}
       ],
       "leads_por_dia": [
         {"data": "01/01", "leads": 4}, {"data": "01/02", "leads": 2}, {"data": "01/03", "leads": 3},
@@ -274,26 +280,26 @@
           {"tipo": "HOT", "conjunto": "01-MIX-365D-ING", "criativo": "01.VD-ING-CALCULADORA", "canal": "fb", "ideal": 3, "bom": 0, "descarte": 3, "total": 6}
         ]
       },
-      "leitura_es": "El CPL general es de €17,83, con HOT a €16,18 y COLD a €15,66, sin diferencia significativa entre públicos. Facebook e Instagram aportan volúmenes similares, 182 y 188 leads respectivamente. HOT está activo con 154 leads. La asistencia en vivo fue del 30,4% y el 20,4% llegó a ver la oferta, la tasa más alta entre los tres webinars. El creativo con más leads Ideales es 01.VD-ING-CALCULADORA en Facebook vía tráfico COLD.",
-      "leitura_pt": "O CPL geral é de €17,83, com QUENTE a €16,18 e FRIO a €15,66, sem diferença significativa entre públicos. O Facebook e o Instagram trazem volumes similares, 182 e 188 leads respectivamente. O público QUENTE está ativo com 154 leads. A presença ao vivo foi de 30,4% e 20,4% chegou a ver a oferta, a maior taxa entre os três webinários. O criativo com mais leads Ideais é o 01.VD-ING-CALCULADORA no Facebook via tráfego FRIO."
+      "leitura_es": "El CPL total es de €17,92, con HOT a €16,21 y COLD a €15,75, sin diferencias relevantes entre los dos públicos. Instagram y Facebook están casi empatados en volumen de leads, 188 contra 182, sin un canal claramente dominante. El público HOT está activo con 154 leads y €2.496,24 invertidos. La asistencia en vivo llega al 30,4% y el 20,4% de los leads vio la oferta, el porcentaje más alto entre los tres webinarios. El creativo con más Ideales es 01.VD-ING-CALCULADORA del conjunto COLD en Facebook.",
+      "leitura_pt": "O CPL total é de €17,92, com QUENTE a €16,21 e FRIO a €15,75, sem diferença relevante entre os dois públicos. O Instagram e o Facebook estão quase empatados em volume de leads, 188 contra 182, sem um canal claramente dominante. O público QUENTE está ativo com 154 leads e €2.496,24 investidos. A presença ao vivo chega a 30,4% e 20,4% dos leads viu a oferta, o maior percentual entre os três webinários. O criativo com mais Ideais é 01.VD-ING-CALCULADORA do conjunto FRIO no Facebook."
     },
     {
       "webinario": "EVERGREEN FORTRAFFIC ARQ ESPAÑA",
       "kpis": {
-        "investimento_total": 3432.35,
-        "cpl_total": 22.58,
+        "investimento_total": 3443.6,
+        "cpl_total": 22.66,
         "leads_total": 157
       },
       "audiencias": {
         "hot": {
           "leads": 70,
-          "spend": 1993.38,
-          "cpl": 28.48
+          "spend": 2001.99,
+          "cpl": 28.6
         },
         "cold": {
           "leads": 81,
-          "spend": 1318.63,
-          "cpl": 16.28
+          "spend": 1319.93,
+          "cpl": 16.3
         }
       },
       "presenca": {
@@ -308,7 +314,8 @@
         {"canal": "Facebook", "leads": 47, "pct": 29.9},
         {"canal": "Instagram", "leads": 103, "pct": 65.6},
         {"canal": "Audience Network", "leads": 2, "pct": 1.3},
-        {"canal": "Sin Trackeo", "leads": 4, "pct": 2.5}
+        {"canal": "Sin Trackeo", "leads": 4, "pct": 2.5},
+        {"canal": "testesource", "leads": 1, "pct": 0.6}
       ],
       "leads_por_dia": [
         {"data": "02/03", "leads": 2}, {"data": "03/12", "leads": 1}, {"data": "04/12", "leads": 1},
@@ -353,36 +360,36 @@
           {"tipo": "HOT", "conjunto": "00-ENG-90D-ARQ", "criativo": "04.VD-EINSTEINS NUGGET-V4", "canal": "ig", "ideal": 2, "bom": 0, "descarte": 4, "total": 6}
         ]
       },
-      "leitura_es": "El CPL general es de €22,58, con HOT a €28,48 y COLD a €16,28; el tráfico COLD es más eficiente en este webinar. Instagram domina la captación con 103 leads frente a 47 en Facebook. HOT está activo con 70 leads. La asistencia en vivo fue del 45,2% y el 36,3% llegó a ver la oferta, el mejor desempeño de los tres webinars. El creativo con más leads Ideales es 01.VD-ARQ-CALCULADORA en Instagram vía tráfico COLD.",
-      "leitura_pt": "O CPL geral é de €22,58, com QUENTE a €28,48 e FRIO a €16,28; o tráfego FRIO é mais eficiente neste webinário. O Instagram domina a captação com 103 leads contra 47 no Facebook. O público QUENTE está ativo com 70 leads. A presença ao vivo foi de 45,2% e 36,3% chegou a ver a oferta, o melhor desempenho dos três webinários. O criativo com mais leads Ideais é o 01.VD-ARQ-CALCULADORA no Instagram via tráfego FRIO."
+      "leitura_es": "El CPL total es de €22,66, con el COLD más eficiente a €16,30 frente al HOT a €28,60. Instagram domina con el 66% de los leads pagos, siendo el canal principal de captación. El público HOT está activo con 70 leads y €2.001,99 invertidos. La tasa de asistencia en vivo es la más alta de los tres webinarios, con 45,2%, y el 36,3% de los leads vio la oferta. El creativo con más Ideales es 01.VD-ARQ-CALCULADORA del conjunto COLD en Instagram.",
+      "leitura_pt": "O CPL total é de €22,66, com o FRIO mais eficiente a €16,30 frente ao QUENTE a €28,60. O Instagram domina com 66% dos leads pagos, sendo o principal canal de captação. O público QUENTE está ativo com 70 leads e €2.001,99 investidos. A taxa de presença ao vivo é a mais alta dos três webinários, com 45,2%, e 36,3% dos leads viu a oferta. O criativo com mais Ideais é 01.VD-ARQ-CALCULADORA do conjunto FRIO no Instagram."
     }
   ],
   "criativos": [
-    {"nome": "01.VD-ING-CALCULADORA", "spend": 4898.01},
-    {"nome": "03.VD EINSTEIN NUGGET-V3", "spend": 3471.66},
-    {"nome": "ING-SOFTWARE-PANTALLAS", "spend": 1584.74},
-    {"nome": "ING-SOFTWARE-PIZARRA", "spend": 552.9},
-    {"nome": "02.VD-EINSTEINS NUGGET-V2", "spend": 451.21},
-    {"nome": "04.VD-EINSTEINS NUGGET-V4", "spend": 400.69},
-    {"nome": "01-ING-FEED-EINSTEIN", "spend": 394.54},
+    {"nome": "01.VD-ING-CALCULADORA", "spend": 4925.2},
+    {"nome": "03.VD EINSTEIN NUGGET-V3", "spend": 3471.85},
+    {"nome": "ING-SOFTWARE-PANTALLAS", "spend": 1589.99},
+    {"nome": "ING-SOFTWARE-PIZARRA", "spend": 554.43},
+    {"nome": "02.VD-EINSTEINS NUGGET-V2", "spend": 451.22},
+    {"nome": "04.VD-EINSTEINS NUGGET-V4", "spend": 402.3},
+    {"nome": "01-ING-FEED-EINSTEIN", "spend": 395.37},
     {"nome": "ARQUITECTOS_63", "spend": 355.52},
-    {"nome": "ING-SOFTWARE-OFF", "spend": 343.21},
-    {"nome": "03-ING-FEED-CRISIS", "spend": 315.47}
+    {"nome": "ING-SOFTWARE-OFF", "spend": 343.32},
+    {"nome": "03-ING-FEED-CRISIS", "spend": 318.14}
   ],
   "segmentacao": {
     "genero": [
-      {"grupo": "female", "spend": 3143.81, "ctr": 1.58, "cpm": 6.45, "cpc": 0.41},
-      {"grupo": "male", "spend": 14025.29, "ctr": 1.5, "cpm": 4.03, "cpc": 0.27},
-      {"grupo": "unknown", "spend": 163.49, "ctr": 2.26, "cpm": 6.44, "cpc": 0.28}
+      {"grupo": "female", "spend": 3153.49, "ctr": 1.5776, "cpm": 6.45, "cpc": 0.15},
+      {"grupo": "male", "spend": 14077.27, "ctr": 1.4982, "cpm": 4.03, "cpc": 0.16},
+      {"grupo": "unknown", "spend": 163.99, "ctr": 2.2562, "cpm": 6.43, "cpc": 0.03}
     ],
     "faixa_etaria": [
-      {"grupo": "18-24", "spend": 7.72, "ctr": 0.51, "cpm": 3.04, "cpc": 0.59},
-      {"grupo": "25-34", "spend": 2970.99, "ctr": 0.86, "cpm": 2.68, "cpc": 0.31},
-      {"grupo": "35-44", "spend": 5570.66, "ctr": 1.31, "cpm": 3.55, "cpc": 0.27},
-      {"grupo": "45-54", "spend": 4632.92, "ctr": 1.92, "cpm": 5.58, "cpc": 0.29},
-      {"grupo": "55-64", "spend": 2929.4, "ctr": 2.78, "cpm": 8.3, "cpc": 0.3},
-      {"grupo": "65+", "spend": 1220.48, "ctr": 3.61, "cpm": 9.45, "cpc": 0.26},
-      {"grupo": "Unknown", "spend": 0.42, "ctr": 1.41, "cpm": 5.92, "cpc": 0.42}
+      {"grupo": "18-24", "spend": 7.83, "ctr": 0.5021, "cpm": 3.02, "cpc": 0.0},
+      {"grupo": "25-34", "spend": 2983.96, "ctr": 0.8571, "cpm": 2.68, "cpc": 0.0},
+      {"grupo": "35-44", "spend": 5588.91, "ctr": 1.3065, "cpm": 3.55, "cpc": 0.0},
+      {"grupo": "45-54", "spend": 4648.2, "ctr": 1.9173, "cpm": 5.59, "cpc": 0.0},
+      {"grupo": "55-64", "spend": 2938.08, "ctr": 2.7815, "cpm": 8.3, "cpc": 0.0},
+      {"grupo": "65+", "spend": 1227.35, "ctr": 3.6005, "cpm": 9.47, "cpc": 0.0},
+      {"grupo": "Unknown", "spend": 0.42, "ctr": 1.4085, "cpm": 5.92, "cpc": 0.0}
     ]
   },
   "cpl_por_dia": [
@@ -400,7 +407,7 @@
     {"data": "04/05/2026", "spend": 70.51}, {"data": "04/12/2025", "spend": 78.54},
     {"data": "05/01/2026", "spend": 100.42}, {"data": "05/02/2026", "spend": 65.06},
     {"data": "05/03/2026", "spend": 38.05}, {"data": "05/04/2026", "spend": 65.03},
-    {"data": "05/05/2026", "spend": 78.26}, {"data": "05/12/2025", "spend": 142.97},
+    {"data": "05/05/2026", "spend": 88.54}, {"data": "05/12/2025", "spend": 142.97},
     {"data": "06/01/2026", "spend": 134.51}, {"data": "06/02/2026", "spend": 69.49},
     {"data": "06/03/2026", "spend": 37.4}, {"data": "06/04/2026", "spend": 75.39},
     {"data": "06/05/2026", "spend": 67.68}, {"data": "06/12/2025", "spend": 119.11},
@@ -469,12 +476,13 @@
     {"data": "27/05/2026", "spend": 70.26}, {"data": "27/12/2025", "spend": 164.33},
     {"data": "28/01/2026", "spend": 87.34}, {"data": "28/02/2026", "spend": 78.63},
     {"data": "28/03/2026", "spend": 87.96}, {"data": "28/04/2026", "spend": 78.83},
-    {"data": "28/05/2026", "spend": 70.78}, {"data": "28/12/2025", "spend": 187.28},
+    {"data": "28/05/2026", "spend": 70.8}, {"data": "28/12/2025", "spend": 187.28},
     {"data": "29/01/2026", "spend": 84.93}, {"data": "29/03/2026", "spend": 83.71},
-    {"data": "29/04/2026", "spend": 67.5}, {"data": "29/05/2026", "spend": 26.31},
+    {"data": "29/04/2026", "spend": 67.5}, {"data": "29/05/2026", "spend": 58.87},
     {"data": "29/12/2025", "spend": 120.0}, {"data": "30/01/2026", "spend": 85.42},
     {"data": "30/03/2026", "spend": 64.08}, {"data": "30/04/2026", "spend": 59.56},
-    {"data": "30/12/2025", "spend": 96.49}, {"data": "31/01/2026", "spend": 86.18},
-    {"data": "31/03/2026", "spend": 62.71}, {"data": "31/12/2025", "spend": 111.24}
+    {"data": "30/05/2026", "spend": 29.58}, {"data": "30/12/2025", "spend": 96.49},
+    {"data": "31/01/2026", "spend": 86.18}, {"data": "31/03/2026", "spend": 62.71},
+    {"data": "31/12/2025", "spend": 111.24}
   ]
 }
